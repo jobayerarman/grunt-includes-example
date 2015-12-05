@@ -5,15 +5,7 @@ module.exports = function(grunt) {
 
     // Remove built directory
     clean: {
-      build: ['build/']
-    },
-
-    // Built stylesheets with less
-    less: {
-      build: {
-        src: 'assets/less/*',
-        dest: 'build/css/app.css'
-      }
+      build: ['dist/']
     },
 
     // Build the site using grunt-includes
@@ -21,11 +13,10 @@ module.exports = function(grunt) {
       build: {
         cwd: 'site',
         src: [ '*.html', 'pages/*.html' ],
-        dest: 'build/',
+        dest: 'dist/',
         options: {
           flatten: true,
-          includePath: 'include',
-          banner: '<!-- Site built using grunt includes! -->\n'
+          includePath: 'include'
         }
       }
     }

@@ -2,9 +2,9 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 900px;
-  color: #ffffff;
+  color: #000;
   position: relative;
-  background: #000000;
+  background: #fff;
 }
 .container {
   margin: 0 auto;
