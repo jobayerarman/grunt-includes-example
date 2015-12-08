@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>grunt-includes-example</title>
-  <link rel="stylesheet" type="text/css" href="css/app.css">
-</head>
-<body>
-  include "header.html"
+include "head.html"
+	<body>
 
-  <div class="container" role="main">
+		<h1 align="center">Grunt Include Example</h1>
+		<h1 align="center">Home Page</h1>
 
-    <p>I am the main container of the page!</p>
+		<header>
+			<nav align="center">
+				<a href="index.html" class="active">Home</a>
+				<a href="pages/about.html">About</a>
+			</nav>
+		</header>
 
-  </div>
+	include "footer.html"
 
-  include "footer.html"
-</body>
+	</body>
 </html>

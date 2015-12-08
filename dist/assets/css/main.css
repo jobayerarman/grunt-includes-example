@@ -1,0 +1,22 @@
+nav {
+  background-color: gray;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+nav a:last-child {
+  margin-right: 0;
+}
+nav a:hover {
+  background-color: #262626;
+}
+.active {
+  background-color: #595959;
+}
